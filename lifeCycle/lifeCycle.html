@@ -30,6 +30,7 @@
            console.log("%c%s", "color:red","data   : " + this.$data); //undefined 
            console.log("%c%s", "color:red","message: " + this.message) //undefined
            console.log('beforeCreate: 刚刚new Vue()之后，这个时候，数据还没有挂载，只是一个空壳')
+           console.log('this.$methods',this.$methods) //undefined
            // console.log(this.alert()) // 会报错 this.alert is not a function
         },
 
