@@ -1,5 +1,7 @@
 ![image](https://github.com/zaishuiyixia/vue/raw/master/images/lifecycle.png)
 
+[demo](https://zaishuiyixia.github.io/vue/lifeCycle/lifeCycle.html)
+
 Vue实例有一个完整的生命周期，也就是从开始创建、初始化数据、编译模板、挂载Dom、渲染→更新→渲染、销毁等一系列过程，我们称这是Vue的生命周期。通俗说就是Vue实例从创建到销毁的过程，就是生命周期。
 
 每一个组件或者实例都会经历一个完整的生命周期，总共分为三个阶段：初始化、运行中、销毁。
